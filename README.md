@@ -23,7 +23,7 @@ WIFI——通过搭载ESP8266-12F芯片的NodeMCU开发板实现接收信号，�
 ### 编译环境：MDK-ARM V5
 ### 基本描述：使用STM32F103C8T6蓝色开发板、电位器、OLED屏幕等，当转动电位器时舵机进行旋转，同时屏幕显示高电平时间
 核心代码：main.c文件-包含程序说明、主函数
-         config.c文件-包含TIM/ GPIO/ ADC等初始化函数
-         config.h-包含函数预定义和全局变量预定义
-         oled.c-包含各种显示函数和IIC初始化
-         oled.h-包含函数预定义和OLED显示所需的宏定义 
+         /config.c文件-包含TIM/ GPIO/ ADC等初始化函数
+         /config.h-包含函数预定义和全局变量预定义
+         /oled.c-包含各种显示函数和IIC初始化
+         /oled.h-包含函数预定义和OLED显示所需的宏定义 
